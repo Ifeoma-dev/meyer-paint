@@ -1,0 +1,122 @@
+body h4{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+}
+
+body p{
+    font-size: 18px;
+}
+
+.navbar{
+    background-color:#0089ba !important;
+    border: none;
+    border-radius: 0;
+    color: #fff !important;
+    height: 80px;
+    padding-top: 20px;
+}
+
+.navbar-right{
+    margin-right: 70px !important;
+}
+
+.paint-me-button{
+	background-color: transparent;
+	border-color: #0089ba !important;
+	border: 1px solid;
+	border-radius: 5px;
+	height: 45px;
+	font-size: 18px;
+	color: inherit;
+	margin-top: -11px;
+	cursor: pointer;
+}
+
+.paint-me-button a :hover{
+    background-color: #fff !important;
+    color: #003767;
+    border-color: none;
+}
+
+.meyer-desc{
+    height: 400px;
+    background-color:#0089ba;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.meyer-desc h5{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 70px;
+}
+
+.paint_image{
+    height: 200px;
+    width: 200px;
+}
+
+#thumbwrap {
+	margin:75px auto;
+    width:252px; 
+    height:252px;
+}
+.thumb {
+	float:left; 
+	position:relative;
+	margin:3px;
+}
+.thumb img { 
+	border:0;
+    vertical-align:top;
+    height: 250px;
+}
+.thumb:hover {
+	border:0; 
+	z-index:1;
+}
+.thumb span { 
+	position:absolute;
+	visibility:hidden;
+}
+.thumb:hover span { 
+	visibility:visible;
+    top:37px; left:37px; 
+}
+
+.footer{
+	background-color: rgb(66, 65, 65);
+	height: 400px;
+	color: #fff;
+}
+
+.footer h4{
+	font-family: 'Lato', sans-serif;
+	color: #003767;
+	font-weight: bold;
+}
+
+.footer p{
+	font-family: 'Lato', sans-serif;
+	color: #8f969d;
+}
+
+.footer ul li{
+	display: block;
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+}
+
+.footer ul li a {
+	text-decoration: none !important;
+	padding-top: 20px;
+	color: #fff;
+}
+
+.footer ul li a:hover {
+    color: red;
+}
+
+.footer h4{
+    color: #fff;
+}
